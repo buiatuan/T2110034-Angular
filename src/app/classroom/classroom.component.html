@@ -1,7 +1,7 @@
 
 <h2>Sĩ số lớp: {{numberofstudents}}</h2>
 <input type="number" [(ngModel)]="numberofstudents" placeholder="Number of student" />
-<teacher name="Trịnh Quang Hòa" [age]="30" tel="0987654231" address="Hà Đông, Hà Nội,VN"> </teacher>
+<teacher [name]="teacher.name" [age]="teacher.age" [tel]="teacher.tel" [address]="teacher.address"> </teacher>
 <h3 [style]="color">Danh sach sinh vien {{name}}:</h3>
 <student name="Bui Anh Tuan" tel="085926435900"></student>
 <student name="jamstanger" tel="08593243300"></student>
